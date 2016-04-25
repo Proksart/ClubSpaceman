@@ -37,7 +37,7 @@ body, .onepage-wrapper, html {
     z-index: 5;
     list-style: none;
     margin: 0;
-    padding: 10px 10px 20px 5px;
+    padding: 10px 80px 20px 5px;
     border-radius: 4px 0 0 4px;
 }
 .onepage-pagination li {
@@ -56,8 +56,9 @@ body, .onepage-wrapper, html {
   position: absolute;
   width: 12px;
   height: 12px;
-  background: #217af1;
+  background: #3b2a4f;
   border-radius: 10px;
+  border: solid 2px white;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
@@ -65,7 +66,7 @@ body, .onepage-wrapper, html {
 .onepage-pagination li a.active:before{
   width: 12px;
   height: 12px;
-  background: #F34D3A;
+  background: white;
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {

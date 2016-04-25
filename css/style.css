@@ -44,35 +44,80 @@ body {
 	color: #fff;
 }
 p {
-    margin: 0 0 25px;
+	font-size: 16px;
+    margin: 0 0 20px;
 }
 
-/*     Selection     ------------------------------------------------------------------*/
-::-moz-selection{
-    background: rgba(0,0,255, 1); 
-    color: #fff; 
-} 
-::webkit-selection{
-    background: rgba(0,0,255, 1); 
-    color: #fff;
-} 
-::selection{
-    background: rgba(0,0,255, 1); 
-    color: #fff;
+.gamb{
+color:white;
+	
+	
+	
+}
+.navbar{
+	z-index: 200;
+}
+.gamb i{
+	color:white;
 }
 
-/*     Container     -----------------------------------------------------------------*/
+/*     Container     */
 .container-fluid {
   padding-right: 35px;
   padding-left: 35px;
 }
-.container {
+.container {	
     width: 85%;
-    height: 100%;
-    padding: 60px 0;
 }
 .row {
     margin: 0px;
+}
+.title h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.title p{
+	text-align: center;
+}
+.block {
+	z-index: 300;
+	display: table;
+	height: 100%;
+	width: 80%;
+	margin: 0 auto;
+}
+.text {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*      MENU       */
+
+.text-content{
+width: 90%;	
+}
+.footer_menu{	
+	width: 80%;
+	position: absolute;
+	height: 60px;
+	bottom: 0;
+}
+.info{
+	font-size: 24px;
+	color: white;
+	}
+.info:hover{
+	color: white;
+}
+.icon_block p{
+	text-align: center;
+}
+.icon{ 	
+    margin-bottom: 5%;
+}
+.navbar-default{
+	background-color: #38294E;
 }
 /*------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
@@ -80,23 +125,95 @@ p {
 --------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------*/
 
-/*     Home     ---------------------------------------------------------------------*/
+/*     Home     */
 
-/*     Description     --------------------------------------------------------------*/
 
-/*     Services     -----------------------------------------------------------------*/
 
-/*     Share     --------------------------------------------------------------------*/
 
-/*     Contacts     -----------------------------------------------------------------*/
+/*     About   */
 
-/*------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
-----------------------------------       UI        -----------------------------------
---------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------*/
+/*     Services   */
+.img-background {
+	background-size: cover;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	background: url('../img/backgroung.png') no-repeat;
+}
+.text-block {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.text-block-action {
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
+	width: 45%;
+	height: 100%;
+}
+.img-background-action {
+	background-size: cover;
+	display: inline-block;
+	width: 25%;
+	
+	height: 25%;
+	
+}
 
-/*     Headers     -----------------------------------------------------------------*/
+/*     Share     */
+.bid{
+	margin-top: 5px;
+	padding: 10px 30px;
+	border-radius: 8px;
+	border: 1px solid #ed6957;
+	background: #ed6957;
+	
+}
+
+/*     Contacts    */
+
+.adress{	
+	color: white;
+	text-decoration: underline;
+}
+.adress:hover{
+	color: whitesmoke;
+}
+.contact_email{
+	color: white;
+}
+.contact_email:hover{
+	color: white;
+}
+.copyright{
+	margin-top: 150px;
+}
+.site{
+	color: white;
+	text-decoration: underline;
+}
+.site:hover{
+	color: whitesmoke;
+}
+.footer {
+	width: 100%;
+	position: absolute;
+	height: 60px;
+	bottom: 0;
+}
+
+.icon-block{	
+    float: left;    
+    text-align: center;
+    width: 33%;
+   
+}
+
+/*     UI     */
+
+/*     Headers    */
 h1,
 h2,
 h3,
@@ -118,10 +235,10 @@ h1 {
     font-weight: 500;
 }
 h2 {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 500;
     text-align: center;
-    padding: 0 0 50px;
+    padding: 0 0 10px;
     margin: 0;
 }
 h3 {
@@ -152,10 +269,10 @@ h6 {
  
 }
 @media screen and (max-width: 773px) {
-   
+ 
 }
 @media screen and (max-width: 736px) {
-   
+	
 }
 @media screen and (max-width: 667px) {
     
